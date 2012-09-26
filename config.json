@@ -1,0 +1,25 @@
+{
+  "resolucion_horizontal": 640,
+  "resolucion_vertical": 480,
+  "sampleBuffer": 1024,
+  "directorio_fuentes": "fuentes",
+  "directorio_imagenes": "images",
+  "directorio_sonidos": "sound",
+  "pantalla_inicial": "mono.jpg",
+  "letra_A": {
+          "id": 4,
+          "texto": "A"
+  },
+  "letra_M": {
+          "id": 5,
+          "texto": "M"
+  },
+  "letra_N": {
+          "id": 6,
+          "texto": "N"
+  },
+  "letra_O": {
+          "id": 7,
+          "texto": "O"
+  }
+}
