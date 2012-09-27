@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    This file is part of El Rostro Humano.
+    This file is part of Constructor de Palabras.
 
     El Rostro Humano is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with El Rostro Humano.  If not, see <http://www.gnu.org/licenses/>.
+    along with Constructor de Palabras.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 import pygame
@@ -80,14 +80,14 @@ class Palabra:
     
     self.activo = False
     
-  def __init__(self, x, y, w, h, nombre, configuracion):
+  def __init__(self, x, y, w, h, directorio_imagenes, directorio_sonidos, nombre, configuracion):
     self.nombre = nombre
     self.texto = configuracion[nombre]['texto']
     
-    archivo_imagen = '%s/%s' % (configuracion['directorio_imagenes'], configuracion[nombre]['imagen'])
+    archivo_imagen = '%s/%s' % (directorio_imagenes, configuracion[nombre]['imagen'])
     self.imagen = self.__load_image(archivo_imagen, w, h, False)
     
-    archivo_sonido = '%s/%s' % (configuracion['directorio_sonidos'], configuracion[nombre]['sonido'])
+    archivo_sonido = '%s/%s' % (directorio_sonidos, configuracion[nombre]['sonido'])
     self.sonido = pygame.mixer.Sound(archivo_sonido)
     
     self.__rect = self.imagen.get_rect()

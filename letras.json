@@ -1,0 +1,26 @@
+{
+  "letra_A": {
+          "id": 0,
+          "texto": "A"
+  },
+  "letra_M": {
+          "id": 5,
+          "texto": "M"
+  },
+  "letra_N": {
+          "id": 6,
+          "texto": "N"
+  },
+  "letra_O": {
+          "id": 7,
+          "texto": "O"
+  },
+  "letra_H": {
+          "id": 4,
+          "texto": "O"
+  },
+  "letra_L": {
+          "id": 8,
+          "texto": "O"
+  }
+}

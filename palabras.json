@@ -1,0 +1,47 @@
+{
+  "ma": {
+      "texto": "ma",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "ma.ogg"
+  },
+  "mama": {
+      "texto": "mama",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "mama.ogg"
+  },
+  "mo": {
+      "texto": "mo",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "mo.ogg"
+  },
+  "no": {
+      "texto": "NO",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "orejas.ogg"
+  },
+  "mano": {
+      "texto": "MANO",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "ojos.ogg"
+  },
+  "mono": {
+      "texto": "mono",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "mono.ogg"
+  },
+  "mona": {
+      "texto": "mona",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "mona.ogg"
+  },
+  "nana": {
+      "texto": "nana",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "nana.ogg"
+  },
+  "hola": {
+      "texto": "hola",
+      "imagen": "enconstruccion.jpg",
+      "sonido": "hola.ogg"
+  }
+}
