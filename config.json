@@ -5,5 +5,7 @@
   "directorio_fuentes": "fuentes",
   "directorio_imagenes": "images",
   "directorio_sonidos": "sound",
-  "pantalla_inicial": "mono.jpg"
+  "pantalla_inicial": "mono.jpg",
+  "resolucion_horizontal_imagenes": 200,
+  "resolucion_vertical_imagenes": 200
 }

@@ -4,19 +4,14 @@
       "imagen": "enconstruccion.jpg",
       "sonido": "mama.ogg"
   },
-  "no": {
-      "texto": "NO",
-      "imagen": "enconstruccion.jpg",
-      "sonido": "orejas.ogg"
-  },
   "mano": {
       "texto": "MANO",
-      "imagen": "enconstruccion.jpg",
-      "sonido": "ojos.ogg"
+      "imagen": "mano.jpg",
+      "sonido": "mano.ogg"
   },
   "mono": {
       "texto": "mono",
-      "imagen": "enconstruccion.jpg",
+      "imagen": "mono.jpg",
       "sonido": "mono.ogg"
   },
   "mona": {
@@ -26,7 +21,12 @@
   },
   "hola": {
       "texto": "HOLA",
-      "imagen": "enconstruccion.jpg",
+      "imagen": "hola.jpg",
       "sonido": "hola.ogg"
+  },
+  "ola": {
+      "texto": "OLA",
+      "imagen": "ola.jpg",
+      "sonido": "ola.ogg"
   }
 }

@@ -56,12 +56,16 @@ def main():
   rojo = (255,0,0)
   screen.fill(blanco)
   
+  resolucion_horizontal_imagenes = configuracion['resolucion_horizontal_imagenes']
+  resolucion_vertical_imagenes = configuracion['resolucion_vertical_imagenes']
+  
   letras = cargarLetras(config_letras)
   print letras  
   palabras = cargarPalabras(_configuracion = config_palabras, \
                             _x = posicion.CENTRADO_HORIZONTAL(), \
                             _y = posicion.CENTRADO_VERTICAL(), \
-                            _w = 140, _h = 140, \
+                            _w = resolucion_horizontal_imagenes, \
+                            _h = resolucion_vertical_imagenes, \
                             dir_imag = directorio_imagenes, \
                             dir_son = directorio_sonidos)
   print palabras
@@ -113,14 +117,16 @@ def main():
       palabra_string = ''
       for clave in palabra_claves_ordenado:
         palabra_string += palabra_en_diccionario[clave]
-        
+      
+      palabra_string = palabra_string.upper()
+      
       mensaje = fuente.render(palabra_string, 1, (0, 0, 0))
       screen.blit(mensaje, (posicion.CENTRADO_HORIZONTAL(), 15))
       
       if duracion > 5000:
 
         for palabra in palabras:
-          if palabra.texto == palabra_string:
+          if palabra.texto.upper() == palabra_string:
             print "Palabra: %s" % palabra_string
             palabra.mostrar(screen)
             if sound <> palabra.sonido:
