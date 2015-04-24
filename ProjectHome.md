@@ -1,0 +1,1 @@
+Es una aplicación educativa para promover la enseñanza de la lectura y escritura en niños usando reactivision, pygame  y pytuio, logrando así una interacción Niño / Maquina única.
